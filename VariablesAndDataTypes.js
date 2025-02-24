@@ -6,7 +6,7 @@ let UserAge = 20;
 const colors = ["white", "yellow", "blue"];
 
 //Task 2
-const Surname = "Ghazaryan";
+const surname = "Ghazaryan";
 console.log(typeof surname);
 let Age = 32;
 console.log(typeof Age);
@@ -23,20 +23,20 @@ console.log(typeof bigInt);
 
 //Task 3 
 const isActive = true;
-console.log(string(isActive));
+console.log(String(isActive));
 const price = "49.99"
-console.log(number(price));
+console.log(Number(price));
 const hasAccess = false;
-console.log(number(hasAccess));
+console.log(Number(hasAccess));
 const emptyText = "";
-console.log(number(emptyText));
+console.log(Number(emptyText));
 const username = "JohnDoe";
-console.log(boolean(username));
+console.log(Boolean(username));
 const itemCount = 0;
-console.log(boolean(itemCount));
+console.log(Boolean(itemCount));
 const notDefined = undefined;
-console.log(number(notDefined));
+console.log(Number(notDefined));
 const spaceString = "   ";
-console.log(boolean(spaceString));
+console.log(Boolean(spaceString));
 const emptyValue = null;
-console.log(string(emptyValue));
+console.log(String(emptyValue));
