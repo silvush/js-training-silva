@@ -14,7 +14,7 @@ do {
     number = userInput("Enter a negative number to stop: ");
  
 } while (number >=0)
-    console.log("The loop has ended")*/
+    console.log("The loop has ended")
 
 // 3. For Loop Task – Multiplication Table
 let newNumber = 5;
