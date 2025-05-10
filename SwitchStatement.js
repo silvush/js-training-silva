@@ -23,7 +23,14 @@ switch(operator)
     default:
         console.log("Invalid operator! Please use +, -, *, or /.")
 }
-
+// Division by zero not handled – If secondNumber is 0, it should display an error instead of performing division.
+// case '/':
+//     if (secondNumber === 0) {
+//         console.log("Error: Division by zero is not allowed.");
+//     } else {
+//         console.log(firstNumber / secondNumber);
+//     }
+//     break;
 
 //Task 2: Season Finder
 const { userInput } = require("./UserInput");
